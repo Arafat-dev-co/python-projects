@@ -15,3 +15,9 @@ A CLI tool to track daily spending.
 - **Features:** Add expenses, view all, filter by category, and calculate total spending.
 - **Storage:** Saves data to `expenses.json`.
 - **Architecture:** Separates data (`Expense`) from logic (`ExpenseManager`).
+
+### 3. To-Do List (`task.py`)
+A CLI tool to manage daily tasks.
+- **Features:** Add tasks, view tasks with status indicators (`[X]` or `[ ]`), and mark tasks as completed.
+- **Storage:** Saves data to `tasks.json`.
+- **Architecture:** Uses boolean flags to track task states across sessions.
