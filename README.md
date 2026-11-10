@@ -21,3 +21,13 @@ A CLI tool to manage daily tasks.
 - **Features:** Add tasks, view tasks with status indicators (`[X]` or `[ ]`), and mark tasks as completed.
 - **Storage:** Saves data to `tasks.json`.
 - **Architecture:** Uses boolean flags to track task states across sessions.
+
+### 4. Student Gradebook (`student.py`)
+A CLI tool to manage student grades.
+- **Features:** Add students with 3 grades, view all students with their averages, and calculate the overall class average.
+- **Storage:** Saves data to `grades.csv`.
+- **Architecture:** Uses the `csv` module with `DictReader` and `DictWriter` to handle CSV files safely. Includes custom string-to-list and list-to-string parsing.
+
+
+
+
