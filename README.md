@@ -28,6 +28,9 @@ A CLI tool to manage student grades.
 - **Storage:** Saves data to `grades.csv`.
 - **Architecture:** Uses the `csv` module with `DictReader` and `DictWriter` to handle CSV files safely. Includes custom string-to-list and list-to-string parsing.
 
-
+### 5. File Organizer (`file.py`)
+An automation script that cleans up messy folders.
+- **Features:** Scans a directory and automatically moves files into categorized subfolders (Images, Documents, Videos, Audio, Misc).
+- **Architecture:** Uses `os` and `shutil` modules to interact with the operating system, create directories dynamically, and move files safely.
 
 
