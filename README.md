@@ -33,4 +33,9 @@ An automation script that cleans up messy folders.
 - **Features:** Scans a directory and automatically moves files into categorized subfolders (Images, Documents, Videos, Audio, Misc).
 - **Architecture:** Uses `os` and `shutil` modules to interact with the operating system, create directories dynamically, and move files safely.
 
+### 6. Web Scraper (`scraper.py`)
+An automation script that extracts data from the internet.
+- **Features:** Scrapes quotes and authors from `quotes.toscrape.com` and saves them to a CSV file.
+- **Libraries:** Uses `requests` to download the HTML and `BeautifulSoup` to parse and extract specific elements.
+
 
