@@ -38,4 +38,10 @@ An automation script that extracts data from the internet.
 - **Features:** Scrapes quotes and authors from `quotes.toscrape.com` and saves them to a CSV file.
 - **Libraries:** Uses `requests` to download the HTML and `BeautifulSoup` to parse and extract specific elements.
 
+### 7. AI Text Summarizer (`summarizer.py`)
+A script that uses Artificial Intelligence to summarize long text.
+- **Features:** Takes multi-line user input and uses Google's Gemini API to generate a 3-bullet-point summary, saving it to a text file.
+- **Libraries:** Uses the official `google-genai` SDK.
+- **Note:** Requires a Gemini API key to run.
+
 
