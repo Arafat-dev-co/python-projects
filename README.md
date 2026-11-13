@@ -44,4 +44,9 @@ A script that uses Artificial Intelligence to summarize long text.
 - **Libraries:** Uses the official `google-genai` SDK.
 - **Note:** Requires a Gemini API key to run.
 
+### 8. Automated AI Assistant (`assitant.py`)
+The capstone project combining web scraping and AI.
+- **Features:** Takes a topic from the user, scrapes the Wikipedia page using `BeautifulSoup`, sends the text to the Gemini API for a 3-bullet-point summary, and saves the result to a file.
+- **Libraries:** `requests`, `beautifulsoup4`, `google-genai`.
+
 
