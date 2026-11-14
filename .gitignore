@@ -1,3 +1,11 @@
 .env
 summary.txt
 __pycache__/
+TestFolder/
+*.txt
+*.jpg
+*.mp4
+*.mp3
+*.csv
+.xyz
+summary.txt
